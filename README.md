@@ -1,83 +1,46 @@
 # Muhammad Sibghat Ullah
 
-**Blockchain Systems Architect** · Protocol design · Smart contracts · Infrastructure · Multi-chain · Security-focused · **7+ years**
+**Blockchain & wallet-infra engineer** · MPC / custody · Rust, Go, TypeScript, Solidity · **7+ years**
 
-I design and build blockchain systems across protocol, smart contracts, and infrastructure—with emphasis on **security, scalability, and production reliability**.
+I design and build wallet infrastructure, protocol tooling, and security-focused chain software. Based in Lahore, Pakistan.
 
-**Blockchain Lead** @ [TEKHQS](https://www.linkedin.com/in/muhammad-sibghat-ullah-48289b152) · Lahore, Pakistan
-
-## About
-
-I design and build blockchain systems across **protocol**, **smart contracts**, and **infrastructure** layers, with a strong focus on **security**, **scalability**, and **production reliability**.
-
-With **7+ years** of experience across multiple ecosystems, my work spans:
-
-- Protocol design and system architecture  
-- Smart contract development and security  
-- Multi-chain integrations and blockchain infrastructure  
-- Backend systems supporting on-chain applications  
-
-I approach blockchain engineering from a **systems perspective**—how protocols, execution environments, and infrastructure interact under real-world scale and adversarial conditions. I build production-grade systems that are secure, resilient, and operable under complex threat and operational scenarios.
-
-**Education:** B.S. IT (Hons), Computer Software Engineering — University of Okara
-
----
-
-## What I work on
-
-| Layer | Focus |
-|-------|--------|
-| **Protocol & architecture** | System design, trust boundaries, upgrade strategy, multi-chain consistency |
-| **Smart contracts** | Solidity, staking, portals, token models, RWA on-chain components |
-| **Infrastructure** | Wallet backends, signing workflows, transaction lifecycle, monitoring & incident response |
-| **Integrations** | MPC-oriented signing architecture, custodial/non-custodial models, backend ↔ chain bridges |
-
-I approach engineering from a **systems perspective**—how protocols, execution environments, and infrastructure behave under scale, operational constraints, and adversarial conditions.
-
----
-
-## Experience (highlights)
-
-| Role | Organization | Focus |
-|------|----------------|--------|
-| **Blockchain Lead** | TEKHQS | Production wallet infrastructure, MPC-based signing, key policy, multi-chain ops, RWA architecture |
-| **Sr. Blockchain Engineer** | Codora | Gold-backed digital assets, issuance/redemption, RWA integrations, Solana/Rust |
-| **Sr. Blockchain Engineer** | Ferrum Network | Cross-chain **MultiSwap** / FIBER engine, portal & staking ecosystem |
-| **Sr. Blockchain Engineer & Team Lead** | HYFATech | Delivery leadership on blockchain products |
-| **Blockchain Developer** | OptimusFox | EVM DeFi, DApps, Cardano/Hyperledger exposure |
-
----
-
-## Selected public repositories
+## Selected work
 
 | Project | Description |
 |---------|-------------|
-| [**FIBER-Engine-Backend**](https://github.com/SibghatUllah1997/FIBER-Engine-Backend) | MultiSwap FIBER orchestration — APIs, cron, cross-chain checks, Web3/Hardhat |
-| [**MultiSwap**](https://github.com/SibghatUllah1997/MultiSwap) | Cross-chain bridge & liquidity routing ([Ferrum docs](https://docs.ferrumnetwork.io/ferrum-network-ecosystem/v/multiswap-and-multichain-liquidity-pool-bridge/)) |
-| [**quantum-portal-smart-contracts**](https://github.com/SibghatUllah1997/quantum-portal-smart-contracts/tree/develop) | Quantum portal / bridge contracts (`develop`) |
-| [**linear-release-engine**](https://github.com/SibghatUllah1997/linear-release-engine) | Per-second linear vesting & release |
-| [**ferrum-network-staking-smart-contracts**](https://github.com/SibghatUllah1997/ferrum-network-staking-smart-contracts) | Network staking contracts |
-| [**KhaosSDK**](https://github.com/SibghatUllah1997/KhaosSDK) | TypeScript DEX SDK (pairs, routes, trades) |
-| [**AirSwap**](https://github.com/SibghatUllah1997/AirSwap) | P2P swap contracts — Exchange & AirSwapToken |
+| [**audit-agent-py**](https://github.com/SibghatUllah1997/audit-agent-py) (`sibaudit`) | Fast, no-deps Python CLI that flags risky Solidity patterns for reviews and CI |
+| [**tx-sim-risk**](https://github.com/SibghatUllah1997/tx-sim-risk) | TypeScript CLI and library that decodes Ethereum and Solana transactions and surfaces risk hints such as unlimited approvals and hidden grants |
 
-> Ferrum/MultiSwap repos are forks of upstream org codebases; my contribution is **architecture, integration, and production backend** on top of those systems.
+Other public work includes [rock-wallet](https://github.com/SibghatUllah1997/rock-wallet) (MPC wallet APIs and offline Bitcoin signing), [KhaosSDK](https://github.com/SibghatUllah1997/KhaosSDK) (TypeScript DEX SDK), and [AirSwap](https://github.com/SibghatUllah1997/AirSwap) (P2P swap contracts).
 
-Additional client and enterprise work (wallets, multiswap services, RWA) lives in **private repositories** — available under NDA.
+## Open source
 
----
+Recent merged work:
 
-## Top skills
+- [foundry-rs/foundry#18382](https://github.com/foundry-rs/foundry/pull/18382) — `getStorageSlot` cheatcode
+- [foundry-rs/foundry#18037](https://github.com/foundry-rs/foundry/pull/18037) — warn when an explicit network mismatches a fork
+- [foundry-rs/book#2224](https://github.com/foundry-rs/book/pull/2224) — docs for fork mismatches with an explicit network
+- [canton-network/splice#8178](https://github.com/canton-network/splice/pull/8178) — re-enable `react-hooks/static-components`
 
-`Blockchain Architecture` · `Protocol Design` · `Smart Contracts` · `Solidity` · `Distributed Systems` · `TypeScript` · `Node.js` · `Hardhat` · `Web3` · `Solana` · `Multi-chain` · `Security`
+Open pull requests:
 
----
+- [canton-network/wallet#2931](https://github.com/canton-network/wallet/pull/2931) — store a hash of session access tokens
+- [digital-asset/canton#713](https://github.com/digital-asset/canton/pull/713) — fix swapped delivered/rejected traffic event counters
+- [solana-program/token-2022#1645](https://github.com/solana-program/token-2022/pull/1645) — `rotate-supply-elgamal-pubkey` CLI command
+
+## Skills
+
+`Rust` · `Go` · `TypeScript` · `Solidity` · `Python` · `MPC / custody` · `Wallet infrastructure` · `Smart contracts` · `Solana` · `Ethereum` · `Security` · `Protocol design`
+
+## Experience
+
+7+ years across protocol design, smart contracts, and wallet infrastructure — including MPC signing, multi-chain operations, and production systems work. Earlier work also covers cross-chain routing and EVM DeFi. Client and employer project details stay in private repositories.
+
+**Education:** B.S. IT (Hons), Computer Software Engineering — University of Okara
 
 ## Connect
 
+- **Website:** [sibghat.dev](https://www.sibghat.dev)
 - **LinkedIn:** [muhammad-sibghat-ullah-48289b152](https://www.linkedin.com/in/muhammad-sibghat-ullah-48289b152)
-- **Location:** Lahore, Punjab, Pakistan
+- **Location:** Lahore, Pakistan
 - **Open to:** roles and collaborations where architecture, security, and production reliability matter
-
----
-
-<sub>Pin the repositories above for the strongest first impression.</sub>
