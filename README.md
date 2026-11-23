@@ -8,6 +8,7 @@ Most of what I build is the part of a wallet nobody sees: how keys are split and
 
 | Project | What it is |
 |---------|------------|
+| [**mpc-custody-toolkit**](https://github.com/SibghatUllah1997/mpc-custody-toolkit) | TypeScript custody toolkit: Shamir splitting with Argon2id-encrypted shares, share rotation, signing policies and an air-gapped signing flow |
 | [**zk-merkle-rs**](https://github.com/SibghatUllah1997/zk-merkle-rs) | `no_std` Rust Merkle trees with inclusion and multiproofs, Merkle sum trees for proof of reserves, Halo2 range proofs and a WASM verifier |
 | [**audit-agent-py**](https://github.com/SibghatUllah1997/audit-agent-py) | Zero-dependency Python CLI that flags risky Solidity patterns in reviews and CI |
 | [**tx-sim-risk**](https://github.com/SibghatUllah1997/tx-sim-risk) | TypeScript CLI and library that decodes Ethereum and Solana transactions and points out risks like unlimited approvals |
