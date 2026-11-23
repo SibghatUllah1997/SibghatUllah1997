@@ -1,46 +1,40 @@
 # Muhammad Sibghat Ullah
 
-**Blockchain & wallet-infra engineer** · MPC / custody · Rust, Go, TypeScript, Solidity · **7+ years**
+Blockchain engineer working on wallet infrastructure: MPC and custody, threshold signing, and Canton/Daml. 7+ years, mostly Rust, TypeScript, Go and Solidity. Based in Lahore, Pakistan.
 
-I design and build wallet infrastructure, protocol tooling, and security-focused chain software. Based in Lahore, Pakistan.
+Most of what I build is the part of a wallet nobody sees: how keys are split and stored, who is allowed to sign what, and how a signing request gets checked before it goes out.
 
-## Selected work
+## Projects
 
-| Project | Description |
-|---------|-------------|
-| [**audit-agent-py**](https://github.com/SibghatUllah1997/audit-agent-py) (`sibaudit`) | Fast, no-deps Python CLI that flags risky Solidity patterns for reviews and CI |
-| [**tx-sim-risk**](https://github.com/SibghatUllah1997/tx-sim-risk) | TypeScript CLI and library that decodes Ethereum and Solana transactions and surfaces risk hints such as unlimited approvals and hidden grants |
-
-Other public work includes [rock-wallet](https://github.com/SibghatUllah1997/rock-wallet) (MPC wallet APIs and offline Bitcoin signing), [KhaosSDK](https://github.com/SibghatUllah1997/KhaosSDK) (TypeScript DEX SDK), and [AirSwap](https://github.com/SibghatUllah1997/AirSwap) (P2P swap contracts).
+| Project | What it is |
+|---------|------------|
+| [**zk-merkle-rs**](https://github.com/SibghatUllah1997/zk-merkle-rs) | `no_std` Rust Merkle trees with inclusion and multiproofs, Merkle sum trees for proof of reserves, Halo2 range proofs and a WASM verifier |
+| [**audit-agent-py**](https://github.com/SibghatUllah1997/audit-agent-py) | Zero-dependency Python CLI that flags risky Solidity patterns in reviews and CI |
+| [**tx-sim-risk**](https://github.com/SibghatUllah1997/tx-sim-risk) | TypeScript CLI and library that decodes Ethereum and Solana transactions and points out risks like unlimited approvals |
+| [**rock-wallet**](https://github.com/SibghatUllah1997/rock-wallet) | MPC wallet APIs and offline Bitcoin signing |
 
 ## Open source
 
-Recent merged work:
+Merged:
 
-- [foundry-rs/foundry#18382](https://github.com/foundry-rs/foundry/pull/18382) — `getStorageSlot` cheatcode
-- [foundry-rs/foundry#18037](https://github.com/foundry-rs/foundry/pull/18037) — warn when an explicit network mismatches a fork
-- [foundry-rs/book#2224](https://github.com/foundry-rs/book/pull/2224) — docs for fork mismatches with an explicit network
-- [canton-network/splice#8178](https://github.com/canton-network/splice/pull/8178) — re-enable `react-hooks/static-components`
+- [foundry-rs/foundry#18382](https://github.com/foundry-rs/foundry/pull/18382): `getStorageSlot` cheatcode
+- [foundry-rs/foundry#18037](https://github.com/foundry-rs/foundry/pull/18037): warn when an explicit network doesn't match the fork
+- [foundry-rs/book#2224](https://github.com/foundry-rs/book/pull/2224): docs for the fork mismatch warning
+- [canton-network/splice#8178](https://github.com/canton-network/splice/pull/8178): re-enable `react-hooks/static-components`
 
-Open pull requests:
+In review:
 
-- [canton-network/wallet#2931](https://github.com/canton-network/wallet/pull/2931) — store a hash of session access tokens
-- [digital-asset/canton#713](https://github.com/digital-asset/canton/pull/713) — fix swapped delivered/rejected traffic event counters
-- [solana-program/token-2022#1645](https://github.com/solana-program/token-2022/pull/1645) — `rotate-supply-elgamal-pubkey` CLI command
+- [canton-network/wallet#2931](https://github.com/canton-network/wallet/pull/2931): store a hash of session access tokens instead of the token (approved, waiting on a second review)
+- [digital-asset/canton#713](https://github.com/digital-asset/canton/pull/713): fix swapped delivered/rejected traffic event counters
+- [solana-program/token-2022#1645](https://github.com/solana-program/token-2022/pull/1645): `rotate-supply-elgamal-pubkey` CLI command
 
-## Skills
+## Stack
 
-`Rust` · `Go` · `TypeScript` · `Solidity` · `Python` · `MPC / custody` · `Wallet infrastructure` · `Smart contracts` · `Solana` · `Ethereum` · `Security` · `Protocol design`
+Rust · TypeScript · Go · Solidity · Python · Daml · MPC / threshold signing · key management · Solana · Ethereum · Canton
 
-## Experience
+## Elsewhere
 
-7+ years across protocol design, smart contracts, and wallet infrastructure — including MPC signing, multi-chain operations, and production systems work. Earlier work also covers cross-chain routing and EVM DeFi. Client and employer project details stay in private repositories.
+- [sibghat.dev](https://www.sibghat.dev)
+- [LinkedIn](https://www.linkedin.com/in/muhammad-sibghat-ullah-48289b152)
 
-**Education:** B.S. IT (Hons), Computer Software Engineering — University of Okara
-
-## Connect
-
-- **Website:** [sibghat.dev](https://www.sibghat.dev)
-- **LinkedIn:** [muhammad-sibghat-ullah-48289b152](https://www.linkedin.com/in/muhammad-sibghat-ullah-48289b152)
-- **Location:** Lahore, Pakistan
-- **Open to:** roles and collaborations where architecture, security, and production reliability matter
+Open to roles and collaborations where key security and production reliability actually matter.
